@@ -1,0 +1,57 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables file
+*.env
+*.env.*
+
+# Flask instance folder
+instance/
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Static and media files (optional, if generated dynamically)
+staticfiles/
+mediafiles/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# macOS system files
+.DS_Store
+
+# Node.js dependencies (if using for frontend assets)
+node_modules/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
